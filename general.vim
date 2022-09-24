@@ -1,4 +1,4 @@
-"ヤンクやペースト時クリップボードの内容を使用する
+"use system clipboard
 set clipboard=unnamed 
 
 " encode
@@ -11,7 +11,6 @@ set list
 set listchars=tab:>_,trail:~,eol:↲
 
 " Key binds
-nnoremap <D-Enter> o<ESC>
 noremap H ^
 noremap L $
 inoremap kj <ESC>
@@ -22,12 +21,10 @@ vnoremap <D-]> >gv
 vnoremap <D-[> <gv
 
 " Color scheme
- syntax enable
+syntax enable
 colorscheme codedark
-" colorscheme zenburn
 
-
-" 行番号表示
+" show line number
 set number
 
 " auto indent
@@ -43,13 +40,11 @@ set smartcase
 set hlsearch
 
 " Status Line
-" ステータスラインを常に表示
 " set laststatus=2 
-" 現在のモードを表示
 set showmode 
-" 打ったコマンドをステータスラインの下に表示
+" show command hit
 set showcmd 
-" ステータスラインの右側にカーソルの現在位置を表示する
+" show line number
 set ruler 
-" メニュー補完
+" compliment menu
 set wildmenu
