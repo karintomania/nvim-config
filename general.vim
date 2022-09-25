@@ -14,11 +14,11 @@ set listchars=tab:>_,trail:~,eol:↲
 noremap H ^
 noremap L $
 inoremap kj <ESC>
-nnoremap <D-]> >>
-nnoremap <D-[> <<
+noremap <C-a> ggVG
 
-vnoremap <D-]> >gv
-vnoremap <D-[> <gv
+vnoremap >> >gv
+vnoremap << <gv
+
 
 " Color scheme
 syntax enable
@@ -48,3 +48,4 @@ set showcmd
 set ruler 
 " compliment menu
 set wildmenu
+
