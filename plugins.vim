@@ -5,4 +5,5 @@ Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 Plug 'ctrlpvim/ctrlp.vim'
 Plug  'vim-vdebug/vdebug'
 Plug 'preservim/nerdtree'
+Plug 'tpope/vim-fugitive'
 call plug#end()
