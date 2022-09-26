@@ -19,6 +19,9 @@ noremap <C-a> ggVG
 vnoremap >> >gv
 vnoremap << <gv
 
+" scroll
+nnoremap <C-j> <C-e>
+nnoremap <C-k> <C-y>
 
 " Color scheme
 syntax enable
@@ -49,3 +52,5 @@ set ruler
 " compliment menu
 set wildmenu
 
+" enable mouse scroll 
+set mouse=n
