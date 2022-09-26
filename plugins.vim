@@ -3,5 +3,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 Plug 'ctrlpvim/ctrlp.vim'
-" Plug  'vim-vdebug/vdebug'
+Plug  'vim-vdebug/vdebug'
+Plug 'preservim/nerdtree'
 call plug#end()
