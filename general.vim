@@ -19,6 +19,9 @@ noremap <C-a> ggVG
 vnoremap >> >gv
 vnoremap << <gv
 
+let mapleader=" "
+nnoremap <SPACE> <Nop>
+
 " scroll
 nnoremap <C-j> <C-e>
 nnoremap <C-k> <C-y>
