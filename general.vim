@@ -28,7 +28,8 @@ nnoremap <C-k> <C-y>
 
 " Color scheme
 syntax enable
-colorscheme codedark
+" colorscheme codedark
+colorscheme gruvbox
 
 " show line number
 set number
