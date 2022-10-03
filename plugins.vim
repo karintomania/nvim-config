@@ -9,9 +9,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'nvim-lualine/lualine.nvim'
-Plug 'ryanoasis/vim-devicons'
-Plug 'xdebug/vscode-php-debug'
-
 call plug#end()
 
 " Read setting files
