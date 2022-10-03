@@ -22,12 +22,21 @@ vnoremap << <gv
 let mapleader=" "
 nnoremap <SPACE> <Nop>
 
-" move between buffers
-nnoremap gb :ls<CR>:b<Space>
+nnoremap gb :bn<CR>
+nnoremap gB :bp<CR>
 
 " scroll
 nnoremap <C-j> <C-e>
 nnoremap <C-k> <C-y>
+
+" terminal
+:tnoremap <Esc> <C-\><C-n>
+
+" move between windows
+nnoremap <leader>h <C-w>h
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>l <C-w>l
 
 " Color scheme
 syntax enable
