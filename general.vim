@@ -11,16 +11,18 @@ set list
 set listchars=tab:>_,trail:~,eol:↲
 
 " Key binds
+let mapleader=" "
+nnoremap <SPACE> <Nop>
+
 noremap H ^
 noremap L $
 inoremap kj <ESC>
 noremap <C-a> ggVG
 
-vnoremap >> >gv
-vnoremap << <gv
-
-let mapleader=" "
-nnoremap <SPACE> <Nop>
+nnoremap <leader>] >>
+nnoremap <leader>[ <<
+vnoremap <leader>] >gv
+vnoremap <leader>[ <gv
 
 nnoremap gb :bn<CR>
 nnoremap gB :bp<CR>
@@ -69,5 +71,5 @@ set ruler
 set wildmenu
 
 " enable mouse scroll 
-set mouse=n
+set mouse=a
 
