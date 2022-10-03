@@ -22,6 +22,9 @@ vnoremap << <gv
 let mapleader=" "
 nnoremap <SPACE> <Nop>
 
+" move between buffers
+nnoremap gb :ls<CR>:b<Space>
+
 " scroll
 nnoremap <C-j> <C-e>
 nnoremap <C-k> <C-y>
@@ -58,3 +61,4 @@ set wildmenu
 
 " enable mouse scroll 
 set mouse=n
+
