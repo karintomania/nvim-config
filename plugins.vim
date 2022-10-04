@@ -1,7 +1,6 @@
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
 Plug 'preservim/nerdtree'
@@ -9,6 +8,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'nvim-lualine/lualine.nvim'
+Plug 'xdebug/vscode-php-debug', { 'do': 'npm install && npm run build'}
 call plug#end()
 
 " Read setting files

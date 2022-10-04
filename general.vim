@@ -32,7 +32,7 @@ nnoremap <C-j> <C-e>
 nnoremap <C-k> <C-y>
 
 " terminal
-:tnoremap <Esc> <C-\><C-n>
+:tnoremap kj <C-\><C-n>
 
 " move between windows
 nnoremap <leader>h <C-w>h
