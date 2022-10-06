@@ -10,6 +10,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'xdebug/vscode-php-debug', { 'do': 'npm install && npm run build'}
+Plug 'simeji/winresizer'
 call plug#end()
 
 " Read setting files
