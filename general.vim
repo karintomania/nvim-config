@@ -73,3 +73,5 @@ set wildmenu
 " enable mouse scroll 
 set mouse=a
 
+
+:command Term belowright split term://zsh
