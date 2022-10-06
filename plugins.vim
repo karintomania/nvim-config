@@ -5,6 +5,7 @@ Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
+Plug 'rbong/vim-flog'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'ryanoasis/vim-devicons'
