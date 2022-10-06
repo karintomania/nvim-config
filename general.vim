@@ -17,7 +17,6 @@ nnoremap <SPACE> <Nop>
 noremap H ^
 noremap L $
 inoremap kj <ESC>
-noremap <C-a> ggVG
 
 nnoremap <leader>] >>
 nnoremap <leader>[ <<
@@ -33,6 +32,7 @@ nnoremap <C-k> <C-y>
 
 " terminal
 :tnoremap kj <C-\><C-n>
+:command Term belowright split term://zsh
 
 " move between windows
 nnoremap <leader>h <C-w>h
@@ -73,5 +73,3 @@ set wildmenu
 " enable mouse scroll 
 set mouse=a
 
-
-:command Term belowright split term://zsh
