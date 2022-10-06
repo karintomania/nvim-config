@@ -12,6 +12,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'xdebug/vscode-php-debug', { 'do': 'npm install && npm run build'}
 Plug 'simeji/winresizer'
+Plug 'terryma/vim-smooth-scroll'
 call plug#end()
 
 " Read setting files
@@ -21,3 +22,4 @@ source $HOME/.config/nvim/plugins/fzf.vim
 source $HOME/.config/nvim/plugins/dap.vim
 source $HOME/.config/nvim/plugins/dap-ui.vim
 source $HOME/.config/nvim/plugins/lualine.vim
+source $HOME/.config/nvim/plugins/smooth-scroll.vim
