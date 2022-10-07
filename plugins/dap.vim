@@ -1,9 +1,11 @@
 lua << EOF
 local dap = require('dap')
+local phpDebugPath = vim.fn.expand("<sfile>:p:h") .. '/../plugged/vscode-php-debug/out/phpDebug.js'
+
 dap.adapters.php = {
   type = 'executable',
   command = 'node',
-  args = { '/Users/hideaki.shimizu/.config/nvim/plugged/vscode-php-debug/out/phpDebug.js' }
+  args = { phpDebugPath }
 }
 
 dap.configurations.php = {
