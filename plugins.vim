@@ -23,3 +23,6 @@ source $HOME/.config/nvim/plugins/dap.vim
 source $HOME/.config/nvim/plugins/dap-ui.vim
 source $HOME/.config/nvim/plugins/lualine.vim
 source $HOME/.config/nvim/plugins/smooth-scroll.vim
+
+" Custom scripts
+source $HOME/.config/nvim/plugins/php-test/php-test.vim
