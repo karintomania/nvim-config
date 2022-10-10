@@ -59,6 +59,7 @@ set shiftwidth=4
 " search
 set smartcase
 set hlsearch
+set incsearch
 
 " Status Line
 " set laststatus=2 
