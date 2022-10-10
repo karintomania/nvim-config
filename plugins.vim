@@ -15,6 +15,7 @@ Plug 'simeji/winresizer'
 Plug 'terryma/vim-smooth-scroll'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
+Plug 'justinmk/vim-sneak'
 call plug#end()
 
 " Read setting files
@@ -26,6 +27,7 @@ source $HOME/.config/nvim/plugins/dap-ui.vim
 source $HOME/.config/nvim/plugins/lualine.vim
 source $HOME/.config/nvim/plugins/smooth-scroll.vim
 source $HOME/.config/nvim/plugins/commentary.vim
+source $HOME/.config/nvim/plugins/sneak.vim
 
 " Custom scripts
 source $HOME/.config/nvim/plugins/php-test/php-test.vim
