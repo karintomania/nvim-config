@@ -13,6 +13,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'xdebug/vscode-php-debug', { 'do': 'npm install && npm run build'}
 Plug 'simeji/winresizer'
 Plug 'terryma/vim-smooth-scroll'
+Plug 'Raimondi/delimitMate'
 call plug#end()
 
 " Read setting files
