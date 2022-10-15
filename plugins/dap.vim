@@ -23,6 +23,7 @@ EOF
 
 
 nnoremap <silent> <F5> <Cmd>lua require'dap'.continue()<CR>
+nnoremap <silent> <F6> <Cmd>DapTerminate<CR>
 nnoremap <silent> <F2> <Cmd>lua require'dap'.step_over()<CR>
 nnoremap <silent> <F3> <Cmd>lua require'dap'.step_into()<CR>
 nnoremap <silent> <F4> <Cmd>lua require'dap'.step_out()<CR>
