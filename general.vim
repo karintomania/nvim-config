@@ -32,7 +32,7 @@ nnoremap <C-k> <C-y>
 
 " terminal
 :tnoremap kj <C-\><C-n>
-:command Term belowright split term://zsh
+:command Term belowright split|term
 
 " move between windows
 nnoremap <leader>h <C-w>h
