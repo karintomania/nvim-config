@@ -1,5 +1,6 @@
 "use system clipboard
 set clipboard=unnamed 
+:command Xclip call system("xclip -sel c", @")
 
 " encode
 set encoding=utf-8
