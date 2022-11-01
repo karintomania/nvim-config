@@ -4,3 +4,4 @@ let NERDTreeShowHidden=1
 let NERDTreeMinimalUI=1
 " "E" to toggle NERDTree
 :command E NERDTreeToggle
+:command F NERDTreeFind
