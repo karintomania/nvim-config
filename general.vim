@@ -1,24 +1,5 @@
 "use system clipboard
-set clipboard=unnamed 
-" to use xclip
-" see :h clipboard and https://github.com/neovim/neovim/blob/master/runtime/autoload/provider/clipboard.vim
-if !has('mac') && executable('xclip')
-	:command Xclip call system("xclip -sel c", @")
-
-	set g:clipboard
-    let g:clipboard = {
-          \   'name': 'myClipboard',
-          \   'copy': {
-          \      '+': ['xclip', '-quiet', '-i', '-selection', 'clipboard'],
-          \      '*': ['xclip', '-o', '-selection', 'clipboard'],
-          \    },
-          \   'paste': {
-          \      '+': ['xclip', '-quiet', '-i', '-selection', 'primary'],
-          \      '*': ['xclip', '-o', '-selection', 'primary'],
-          \   },
-          \   'cache_enabled': 1,
-          \ }
-endif
+set clipboard+=unnamedplus
 
 " encode
 set encoding=utf-8
