@@ -90,6 +90,7 @@ set showcmd
 set ruler 
 " compliment menu
 set wildmenu
+set wildignorecase
 
 " enable mouse scroll 
 set mouse=a
