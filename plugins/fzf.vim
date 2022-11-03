@@ -8,3 +8,7 @@ let g:fzf_preview_window = ['hidden,up,30%', 'ctrl-/']
 nnoremap <silent> <C-p> :Files<CR>
 nnoremap <silent> <leader>p :GFiles<CR>
 nnoremap <silent> <C-b> :Buffers<CR>
+
+" find from hidden/gitignored files as well
+command! -bang -nargs=* Agu call fzf#vim#ag(<q-args>, '-u', <bang>0)
+
