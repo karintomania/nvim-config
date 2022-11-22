@@ -15,6 +15,7 @@ Plug 'simeji/winresizer'
 Plug 'terryma/vim-smooth-scroll'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
