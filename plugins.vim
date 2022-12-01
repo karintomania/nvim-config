@@ -1,5 +1,6 @@
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.config/nvim/plugged')
+Plug 'airblade/vim-gitgutter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
@@ -32,6 +33,7 @@ source $HOME/.config/nvim/plugins/smooth-scroll.vim
 source $HOME/.config/nvim/plugins/commentary.vim
 source $HOME/.config/nvim/plugins/sneak.vim
 source $HOME/.config/nvim/plugins/treesitter.vim
+source $HOME/.config/nvim/plugins/gitgutter.vim
 
 " Custom scripts
 source $HOME/.config/nvim/plugins/php-test/php-test.vim
