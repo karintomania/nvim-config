@@ -9,6 +9,8 @@ nnoremap <silent> <C-p> :Files<CR>
 nnoremap <silent> <leader>p :GFiles<CR>
 nnoremap <silent> <C-b> :Buffers<CR>
 
+" find from all text files
+command! -bang -nargs=* Agt call fzf#vim#ag(<q-args>, '-t', <bang>0)
 " find from hidden/gitignored files as well
 command! -bang -nargs=* Agu call fzf#vim#ag(<q-args>, '-u', <bang>0)
 
