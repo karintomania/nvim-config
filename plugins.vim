@@ -34,5 +34,3 @@ source $HOME/.config/nvim/plugins/sneak.vim
 source $HOME/.config/nvim/plugins/treesitter.vim
 source $HOME/.config/nvim/plugins/gitgutter.vim
 
-" Custom scripts
-source $HOME/.config/nvim/plugins/php-test/php-test.vim
