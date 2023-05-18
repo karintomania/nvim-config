@@ -9,7 +9,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'xdebug/vscode-php-debug', { 'do': 'npm install && npm run build'}
 Plug 'simeji/winresizer'

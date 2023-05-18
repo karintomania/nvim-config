@@ -56,6 +56,7 @@ set smartindent
 " tab
 set tabstop=4
 set shiftwidth=4
+set expandtab
 
 " search
 set ignorecase
