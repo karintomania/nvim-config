@@ -18,8 +18,6 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-" Plug 'karintomania/nvim-ai-chat'
-Plug '~/Documents/nvim-chat'
 call plug#end()
 
 " Read setting files
@@ -35,7 +33,6 @@ source $HOME/.config/nvim/plugins/commentary.vim
 source $HOME/.config/nvim/plugins/sneak.vim
 source $HOME/.config/nvim/plugins/treesitter.vim
 source $HOME/.config/nvim/plugins/gitgutter.vim
-source $HOME/.config/nvim/plugins/ai-chat.vim
 
 " Custom scripts
 source $HOME/.config/nvim/plugins/php-test/php-test.vim
