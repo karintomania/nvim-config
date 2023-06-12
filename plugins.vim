@@ -16,7 +16,6 @@ Plug 'terryma/vim-smooth-scroll'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'justinmk/vim-sneak'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug '~/Documents/nvim-chat'
 call plug#end()
@@ -31,7 +30,6 @@ source $HOME/.config/nvim/plugins/dap-ui.vim
 source $HOME/.config/nvim/plugins/lualine.vim
 source $HOME/.config/nvim/plugins/smooth-scroll.vim
 source $HOME/.config/nvim/plugins/commentary.vim
-source $HOME/.config/nvim/plugins/sneak.vim
 source $HOME/.config/nvim/plugins/treesitter.vim
 source $HOME/.config/nvim/plugins/gitgutter.vim
 source $HOME/.config/nvim/plugins/ai-chat.vim
