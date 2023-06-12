@@ -1,6 +1,6 @@
 lua << EOF
 require("nvim-ai-chat").setup({
-	token = '',
+	token = vim.g.open_ai_token,
 	maxLength = 300, -- maximum length of the answer
 })
 EOF
