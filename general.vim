@@ -32,7 +32,6 @@ nnoremap <C-k> <C-y>
 
 " terminal
 :tnoremap kj <C-\><C-n>
-:command Term belowright split|term
 :command T belowright split|term
 
 " move between windows
@@ -43,8 +42,8 @@ nnoremap <leader>l <C-w>l
 
 " Color scheme
 syntax enable
-" colorscheme codedark
-colorscheme gruvbox
+colorscheme codedark
+" colorscheme gruvbox
 
 " show line number
 set number
