@@ -47,3 +47,8 @@ xmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 nmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 " Symbol renaming
 nmap <leader>rn <Plug>(coc-rename)
+
+
+
+" fix bug for auto-complete variable with double $ symbol
+autocmd FileType php set iskeyword+=$
