@@ -7,6 +7,7 @@ require'nvim-treesitter.configs'.setup {
 		 "html",
 		 "javascript",
 		 "json",
+		 "jsonnet",
 		 "lua",
 		 "php",
 		 "python",

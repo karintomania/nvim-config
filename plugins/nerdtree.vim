@@ -13,6 +13,9 @@ autocmd FileType nerdtree nnoremap <buffer> <C-k> <C-y>
 
 autocmd FileType nerdtree exec "call LoadWorkspaceIfExists()"
 function! LoadWorkspaceIfExists()
+  if !exists('b:NERDTree')
+    return
+  endif
   let l:tree_root = b:NERDTree.root.path.str()
   let l:workspace_file = l:tree_root . "/workspace.vim"
   if filereadable(l:workspace_file)

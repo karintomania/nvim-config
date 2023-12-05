@@ -10,6 +10,9 @@ set ambiwidth=double
 set list
 set listchars=tab:>_,trail:~,eol:↲
 
+set nofixeol
+set nofixendofline
+
 " Key binds
 let mapleader=" "
 nnoremap <SPACE> <Nop>
@@ -42,8 +45,8 @@ nnoremap <leader>l <C-w>l
 
 " Color scheme
 syntax enable
-colorscheme codedark
-" colorscheme gruvbox
+" colorscheme codedark
+colorscheme gruvbox
 
 " show line number
 set number
