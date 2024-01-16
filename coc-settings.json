@@ -2,4 +2,12 @@
     "suggest.noselect": true,
     "diagnostic.checkCurrentLine": true,
     "python.pythonPath": "/opt/homebrew/opt/python@3.10/libexec/bin/python",
+    "languageserver": {
+        "jsonnet": {
+          "command": "jsonnet-language-server_0.13.1_darwin_arm64",
+          "args": ["-t"],
+          "rootPatterns": [".git/", "jsonnetfile.json"],
+          "filetypes": ["jsonnet","libsonnet"]
+        }
+    }
 }
