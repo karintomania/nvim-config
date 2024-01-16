@@ -16,7 +16,7 @@ command! -bang -nargs=* Agu call fzf#vim#ag(<q-args>, '-u', <bang>0)
 
 command! -bang -nargs=* LinesWithPreview
     \ call fzf#vim#grep(
-    \   'ag --numbers --color --no-heading ^ '.fnameescape(expand('%')), 1,
+    \   'ag --numbers --color ^ '.fnameescape(expand('%')), 1,
     \   fzf#vim#with_preview(),
     \   1)
 nnoremap  <silent> <C-/> :LinesWithPreview<CR>
