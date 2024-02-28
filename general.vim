@@ -46,7 +46,10 @@ nnoremap <leader>l <C-w>l
 " Color scheme
 syntax enable
 " colorscheme codedark
-colorscheme gruvbox
+" colorscheme gruvbox
+set termguicolors
+colorscheme catppuccin_mocha
+
 
 " show line number
 set number
