@@ -19,7 +19,7 @@ nnoremap <SPACE> <Nop>
 
 noremap H ^
 noremap L $
-inoremap kj <ESC>
+inoremap jj <ESC>
 
 nnoremap <leader>] >>
 nnoremap <leader>[ <<
