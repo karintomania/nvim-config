@@ -9,10 +9,13 @@ require'nvim-treesitter.configs'.setup {
 		 "json",
 		 "jsonnet",
 		 "lua",
+		 "luadoc",
+		 "markdown",
 		 "php",
 		 "python",
 		 "sql",
 		 "vim",
+		 "vimdoc",
 	     },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
