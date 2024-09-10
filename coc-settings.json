@@ -8,6 +8,12 @@
           "args": ["-t"],
           "rootPatterns": [".git/", "jsonnetfile.json"],
           "filetypes": ["jsonnet","libsonnet"]
+        },
+        "phpactor": {
+            "command": "phpactor",
+            "args": ["language-server"],
+            "trace.server": "verbose",
+            "filetypes": ["php"]
         }
     }
 }
