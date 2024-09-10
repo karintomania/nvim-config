@@ -5,9 +5,9 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " Ctrl- shows preview 
 let g:fzf_preview_window = ['up,30%', 'ctrl-/']
 
-nnoremap <silent> <C-p> :Files<CR>
-nnoremap <silent> <leader>p :GFiles<CR>
-nnoremap <silent> <C-b> :Buffers<CR>
+nnoremap <silent> <leader>F :Files<CR>
+nnoremap <silent> <leader>f :GFiles<CR>
+nnoremap <silent> <leader>b :Buffers<CR>
 
 " find from all text files
 command! -bang -nargs=* Agt call fzf#vim#ag(<q-args>, '-t', <bang>0)
