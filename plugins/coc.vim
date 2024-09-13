@@ -48,6 +48,9 @@ nmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 " Symbol renaming
 nmap <leader>rn <Plug>(coc-rename)
 
+nmap <silent> [g <Plug>(coc-diagnostic-previous)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+" Symbol renaming
 
 
 " fix bug for auto-complete variable with double $ symbol
