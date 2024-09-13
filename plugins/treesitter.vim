@@ -38,5 +38,5 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 EOF
 
-autocmd BufReadPost,FileReadPost * normal zR
+" autocmd BufReadPost,FileReadPost * normal zR
 
