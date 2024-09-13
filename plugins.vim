@@ -17,6 +17,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'ryanoasis/vim-devicons'
 " Plug '~/Documents/nvim-chat'
 call plug#end()
 
