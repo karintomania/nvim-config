@@ -1,3 +1,6 @@
+""""""""""""
+" Settings "
+""""""""""""
 "use system clipboard
 set clipboard+=unnamedplus
 
@@ -16,32 +19,6 @@ set nofixendofline
 " Key binds
 let mapleader=" "
 nnoremap <SPACE> <Nop>
-
-noremap H ^
-noremap L $
-inoremap jj <ESC>
-
-nnoremap <leader>] >>
-nnoremap <leader>[ <<
-vnoremap <leader>] >gv
-vnoremap <leader>[ <gv
-
-nnoremap gb :bn<CR>
-nnoremap gB :bp<CR>
-
-" scroll
-nnoremap <C-j> <C-e>
-nnoremap <C-k> <C-y>
-
-" terminal
-:tnoremap kj <C-\><C-n>
-:command T belowright split|term
-
-" move between windows
-nnoremap <leader>h <C-w>h
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
 
 " Color scheme
 syntax enable
@@ -85,3 +62,31 @@ set mouse=a
 
 " Enable folding, but don't collapse folds by default.
 set foldlevelstart=99
+
+""""""""""""
+" Mappings "
+""""""""""""
+noremap H ^
+noremap L $
+inoremap jj <ESC>
+
+" Indentation
+nnoremap <leader>] >>
+nnoremap <leader>[ <<
+vnoremap <leader>] >gv
+vnoremap <leader>[ <gv
+
+" scroll
+nnoremap <C-j> <C-e>
+nnoremap <C-k> <C-y>
+
+" terminal // currently using zellij for terminal pane
+" :tnoremap kj <C-\><C-n>
+" :command T belowright split|term
+
+" move between windows
+nnoremap <leader>h <C-w>h
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>l <C-w>l
+
