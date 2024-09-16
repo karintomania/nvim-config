@@ -70,6 +70,9 @@ noremap H ^
 noremap L $
 inoremap jj <ESC>
 
+" Select all
+nnoremap <C-a> ggVG
+
 " Indentation
 nnoremap <leader>] >>
 nnoremap <leader>[ <<
