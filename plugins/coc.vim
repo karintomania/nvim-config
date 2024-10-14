@@ -48,8 +48,8 @@ nmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 " Symbol renaming
 nmap <leader>rn <Plug>(coc-rename)
 
-nmap <silent> [g <Plug>(coc-diagnostic-previous)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap <silent> [d <Plug>(coc-diagnostic-previous)
+nmap <silent> ]d <Plug>(coc-diagnostic-next)
 " Symbol renaming
 
 
