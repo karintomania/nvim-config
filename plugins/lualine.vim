@@ -1,7 +1,7 @@
 lua << END
 require('lualine').setup({
 	sections = {
-        lualine_b = {'branch', 'diagnostics'},
+        lualine_b = {'diagnostics'},
 		lualine_c = {
 			{"filename", path=3} -- show relative path
 		},
