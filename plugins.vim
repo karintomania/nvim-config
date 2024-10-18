@@ -2,6 +2,7 @@
 call plug#begin('~/.config/nvim/plugged')
 " system
 Plug 'nvim-lua/plenary.nvim'
+Plug 'ryanoasis/vim-devicons'
 
 Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
@@ -12,9 +13,9 @@ Plug 'simeji/winresizer'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'ryanoasis/vim-devicons'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'ThePrimeagen/refactoring.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -39,6 +40,7 @@ source $HOME/.config/nvim/plugins/gitgutter.vim
 
 source $HOME/.config/nvim/plugins/lsp.vim
 source $HOME/.config/nvim/plugins/cmp.vim
+source $HOME/.config/nvim/plugins/refactoring.vim
 
 " source $HOME/.config/nvim/plugins/coc.vim
 " source $HOME/.config/nvim/plugins/dap.vim
