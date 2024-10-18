@@ -13,7 +13,7 @@
             "command": "phpactor",
             "args": ["language-server"],
             "trace.server": "verbose",
-            "filetypes": ["php"]
+            "filetypes": ["cccc"]
         }
     }
 }
