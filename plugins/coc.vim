@@ -55,3 +55,8 @@ nmap <silent> ]d <Plug>(coc-diagnostic-next)
 
 " fix bug for auto-complete variable with double $ symbol
 autocmd FileType php set iskeyword+=$
+
+
+" Installed
+" CocInstall coc-phpls
+" `~/.config/coc/extensions/package.json`, 

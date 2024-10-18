@@ -38,5 +38,5 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 EOF
 
-" autocmd BufReadPost,FileReadPost * normal zR
-
+" Enable folding, but don't collapse folds by default.
+set foldlevelstart=99

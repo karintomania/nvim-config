@@ -1,4 +1,6 @@
+
 lua << EOF
+-- This needs global install of intelephense: https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#intelephense
 require'lspconfig'.intelephense.setup{}
 EOF
 

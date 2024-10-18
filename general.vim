@@ -60,8 +60,6 @@ set wildignorecase
 " enable mouse scroll 
 set mouse=a
 
-" Enable folding, but don't collapse folds by default.
-set foldlevelstart=99
 
 """"""""""""
 " Mappings "
