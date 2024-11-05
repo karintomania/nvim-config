@@ -22,6 +22,9 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 
+Plug 'zbirenbaum/copilot-cmp'
+Plug 'zbirenbaum/copilot.lua'
+
 " Plug 'tpope/vim-fugitive'
 " Plug 'xdebug/vscode-php-debug', { 'do': 'npm install && npm run build'}
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -41,6 +44,8 @@ source $HOME/.config/nvim/plugins/gitgutter.vim
 source $HOME/.config/nvim/plugins/lsp.vim
 source $HOME/.config/nvim/plugins/cmp.vim
 source $HOME/.config/nvim/plugins/refactoring.vim
+
+source $HOME/.config/nvim/plugins/copilot.vim
 
 " source $HOME/.config/nvim/plugins/coc.vim
 " source $HOME/.config/nvim/plugins/dap.vim
