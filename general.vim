@@ -69,7 +69,7 @@ noremap L $
 inoremap jj <ESC>
 
 " Select all
-nnoremap <C-a> ggVG
+inoremap <C-a> <ESC>ggVG
 
 " Indentation
 nnoremap <leader>] >>
