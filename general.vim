@@ -61,7 +61,6 @@ set wildignorecase
 " enable mouse scroll 
 set mouse=a
 
-
 """"""""""""
 " Mappings "
 """"""""""""
@@ -87,3 +86,9 @@ nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 
 set shell=zsh\ -i
+
+
+""""""""""""
+" Scripts  "
+""""""""""""
+command! -nargs=0 CopyRelativePath let @+ = fnamemodify(expand("%"), ":.")

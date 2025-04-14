@@ -25,11 +25,6 @@ Plug 'hrsh7th/cmp-path'
 Plug 'zbirenbaum/copilot-cmp'
 Plug 'zbirenbaum/copilot.lua'
 
-" Plug 'tpope/vim-fugitive'
-" Plug 'xdebug/vscode-php-debug', { 'do': 'npm install && npm run build'}
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'mfussenegger/nvim-dap'
-" Plug 'rcarriga/nvim-dap-ui'
 call plug#end()
 
 " Read setting files
@@ -39,14 +34,9 @@ source $HOME/.config/nvim/plugins/fzf.vim
 source $HOME/.config/nvim/plugins/lualine.vim
 source $HOME/.config/nvim/plugins/commentary.vim
 source $HOME/.config/nvim/plugins/treesitter.vim
-source $HOME/.config/nvim/plugins/gitgutter.vim
 
 source $HOME/.config/nvim/plugins/lsp.vim
 source $HOME/.config/nvim/plugins/cmp.vim
 source $HOME/.config/nvim/plugins/refactoring.vim
 
 source $HOME/.config/nvim/plugins/copilot.vim
-
-" source $HOME/.config/nvim/plugins/coc.vim
-" source $HOME/.config/nvim/plugins/dap.vim
-" source $HOME/.config/nvim/plugins/dap-ui.vim
