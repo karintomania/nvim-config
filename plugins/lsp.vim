@@ -2,6 +2,8 @@
 lua << EOF
 -- This needs global install of intelephense: https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#intelephense
 require'lspconfig'.intelephense.setup{}
+require'lspconfig'.gopls.setup{}
+-- require'lspconfig'.phpactor.setup{}
 EOF
 
 " goto actions
