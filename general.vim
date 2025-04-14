@@ -85,6 +85,9 @@ nnoremap <C-l> <C-w>l
 nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 
+" replace
+xnoremap R P
+
 set shell=zsh\ -i
 
 
