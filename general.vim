@@ -64,31 +64,25 @@ set mouse=a
 """"""""""""
 " Mappings "
 """"""""""""
-noremap H ^
-noremap L $
+noremap gh ^
+noremap gl $
+
+nnoremap ge G
+
 inoremap jj <ESC>
 
-" Select all
-inoremap <C-a> <ESC>ggVG
-
 " Indentation
-nnoremap <leader>] >>
-nnoremap <leader>[ <<
-vnoremap <leader>] >gv
-vnoremap <leader>[ <gv
+vnoremap > >gv
+vnoremap < <gv
 
 " scroll
 nnoremap <C-j> <C-e>
 nnoremap <C-k> <C-y>
 
-" terminal // currently using zellij for terminal pane
-" :tnoremap kj <C-\><C-n>
-" :command T belowright split|term
-
 " move between windows
-nnoremap <leader>h <C-w>h
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
 nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
 
 set shell=zsh\ -i
