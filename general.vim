@@ -67,7 +67,7 @@ set mouse=a
 noremap gh ^
 noremap gl $
 
-nnoremap ge G
+noremap ge G
 
 inoremap jj <ESC>
 
@@ -91,4 +91,5 @@ set shell=zsh\ -i
 """"""""""""
 " Scripts  "
 """"""""""""
+" Copy buffer file's relative path
 command! -nargs=0 CopyRelativePath let @+ = fnamemodify(expand("%"), ":.")

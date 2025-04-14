@@ -1,4 +1,3 @@
-lua << EOF
 local cmp = require'cmp'
 cmp.setup ({
     mapping = cmp.mapping.preset.insert({
@@ -28,4 +27,3 @@ cmp.setup ({
   }
 })
 
-EOF

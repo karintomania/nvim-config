@@ -1,4 +1,3 @@
-lua << END
 require('lualine').setup({
 	sections = {
         lualine_b = {'diagnostics'},
@@ -15,4 +14,3 @@ require('lualine').setup({
     lualine_x = {}
   },
 })
-END

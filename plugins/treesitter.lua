@@ -1,4 +1,3 @@
-lua << EOF
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
   ensure_installed = {
@@ -36,7 +35,6 @@ require'nvim-treesitter.configs'.setup {
 
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
-EOF
 
-" Enable folding, but don't collapse folds by default.
-set foldlevelstart=99
+-- Enable folding, but don't collapse folds by default.
+vim.opt.foldlevelstart = 99
