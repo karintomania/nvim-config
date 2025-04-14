@@ -12,6 +12,7 @@ set ambiwidth=double
 " white space visible
 set list
 set listchars=tab:>_,trail:~,eol:↲
+set fillchars=eob:\ 
 
 set nofixeol
 set nofixendofline
