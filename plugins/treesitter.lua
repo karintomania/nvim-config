@@ -1,6 +1,7 @@
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
   ensure_installed = {
+		 "c",
 		 "clojure",
 		 "css",
 		 "html",
@@ -15,6 +16,7 @@ require'nvim-treesitter.configs'.setup {
 		 "sql",
 		 "vim",
 		 "vimdoc",
+		 "zig",
 	     },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
