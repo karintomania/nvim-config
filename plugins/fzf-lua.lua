@@ -14,3 +14,16 @@ keymap("n", "<leader>l", "<cmd>FzfLua lines<cr>", { desc = "Lines picker" })
 keymap("n", "<leader>G", "<cmd>FzfLua grep<cr>", { desc = "Grep picker" })
 
 keymap("n", "<leader>'", "<cmd>FzfLua resume<cr>", { desc = "Previous picker" })
+
+-- Open filepicker when opening a folder
+vim.api.nvim_create_autocmd('VimEnter', {
+    callback = function()
+        local buf = vim.api.nvim_get_current_buf()
+        local filetype = vim.api.nvim_buf_get_option(buf, 'filetype')
+
+        -- Execute the FzfLua files command if it's nerdtree, which means folder
+        if filetype == "nerdtree" then 
+            vim.cmd('FzfLua files')
+        end
+    end
+})
