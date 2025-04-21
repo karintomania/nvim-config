@@ -16,9 +16,11 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 
-" Copilot
-Plug 'zbirenbaum/copilot-cmp'
-Plug 'zbirenbaum/copilot.lua'
+if g:platform != 'android'
+    " Copilot
+    Plug 'zbirenbaum/copilot-cmp'
+    Plug 'zbirenbaum/copilot.lua'
+endif
 
 " Others 
 Plug 'Raimondi/delimitMate'
@@ -44,7 +46,11 @@ luafile $HOME/.config/nvim/plugins/lsp.lua
 
 
 luafile $HOME/.config/nvim/plugins/cmp.lua
-luafile $HOME/.config/nvim/plugins/copilot.lua
+
+if g:platform != 'android'
+    luafile $HOME/.config/nvim/plugins/copilot.lua
+endif
+
 luafile $HOME/.config/nvim/plugins/fzf-lua.lua
 luafile $HOME/.config/nvim/plugins/lualine.lua
 luafile $HOME/.config/nvim/plugins/refactoring.lua
