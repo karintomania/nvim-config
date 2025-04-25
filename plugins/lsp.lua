@@ -1,12 +1,14 @@
 -- LSP Configuration
 local lspconfig = require('lspconfig')
 
-lspconfig.clangd.setup{}
-lspconfig.intelephense.setup{}
-lspconfig.gopls.setup{}
-lspconfig.pyright.setup{}
-lspconfig.zls.setup{}
--- lspconfig.phpactor.setup{}
+if vim.g.platform ~= 'android' then
+    lspconfig.clangd.setup{}
+    lspconfig.intelephense.setup{}
+    lspconfig.gopls.setup{}
+    lspconfig.pyright.setup{}
+    lspconfig.zls.setup{}
+    -- lspconfig.phpactor.setup{}
+end
 
 -- Key mappings
 local keymap = vim.keymap.set

@@ -25,6 +25,7 @@ endif
 " Others 
 Plug 'Raimondi/delimitMate'
 Plug 'ThePrimeagen/refactoring.nvim'
+Plug 'ThePrimeagen/harpoon', {'branch': 'harpoon2'}
 Plug 'airblade/vim-gitgutter'
 Plug 'ibhagwan/fzf-lua'
 Plug 'nvim-lualine/lualine.nvim'
@@ -32,6 +33,7 @@ Plug 'preservim/nerdtree'
 Plug 'simeji/winresizer'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+
 
 call plug#end()
 
@@ -55,3 +57,4 @@ luafile $HOME/.config/nvim/plugins/fzf-lua.lua
 luafile $HOME/.config/nvim/plugins/lualine.lua
 luafile $HOME/.config/nvim/plugins/refactoring.lua
 luafile $HOME/.config/nvim/plugins/treesitter.lua
+luafile $HOME/.config/nvim/plugins/harpoon.lua
