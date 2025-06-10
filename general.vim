@@ -95,4 +95,5 @@ set shell=zsh\ -i
 " Scripts  "
 """"""""""""
 " Copy buffer file's relative path
-command! -nargs=0 CopyRelativePath let @+ = fnamemodify(expand("%"), ":.")
+" C: Copy R: Relative P: Path
+command! -nargs=0 CRP let @+ = fnamemodify(expand("%"), ":.")
