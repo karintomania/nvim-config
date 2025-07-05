@@ -16,7 +16,7 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 
-if g:platform != 'android'
+if g:enable_copilot
     " Copilot
     Plug 'zbirenbaum/copilot-cmp'
     Plug 'zbirenbaum/copilot.lua'
@@ -49,7 +49,7 @@ luafile $HOME/.config/nvim/plugins/lsp.lua
 
 luafile $HOME/.config/nvim/plugins/cmp.lua
 
-if g:platform != 'android'
+if g:enable_copilot
     luafile $HOME/.config/nvim/plugins/copilot.lua
 endif
 
