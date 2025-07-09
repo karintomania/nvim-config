@@ -97,3 +97,4 @@ set shell=zsh\ -i
 " Copy buffer file's relative path
 " C: Copy R: Relative P: Path
 command! -nargs=0 CRP let @+ = fnamemodify(expand("%"), ":.")
+nnoremap <C-f> :CRP<CR>
