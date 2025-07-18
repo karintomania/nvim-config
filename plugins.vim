@@ -23,7 +23,7 @@ if g:enable_copilot
 endif
 
 " Others 
-Plug 'Raimondi/delimitMate'
+" Plug 'Raimondi/delimitMate'
 Plug 'ThePrimeagen/refactoring.nvim'
 Plug 'ThePrimeagen/harpoon', {'branch': 'harpoon2'}
 Plug 'airblade/vim-gitgutter'
