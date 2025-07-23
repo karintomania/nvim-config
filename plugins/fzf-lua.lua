@@ -1,6 +1,14 @@
-local fzf = require'fzf-lua'
+local fzflua = require'fzf-lua'
 
-fzf.setup{}
+fzflua.setup{
+    winopts = {
+        preview = {
+          -- horizontal split breaks on mac somehow
+          layout         = "vertical", -- horizontal|vertical|flex
+          hidden = true,
+        },
+    }
+}
 
 -- Define keymaps
 local keymap = vim.keymap.set
