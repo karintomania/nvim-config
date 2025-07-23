@@ -6,8 +6,8 @@ list_android = {
 list_default = {
         "clangd",
         -- "gopls", -- somehow, gols doesn't auto-import when installed from mason
-        "intelephense",
-        "pyright",
+        -- "intelephense",
+        -- "pyright",
         "zls",
 }
 local ensure_installed = {}
