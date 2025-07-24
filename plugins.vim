@@ -25,7 +25,8 @@ endif
 Plug 'ThePrimeagen/refactoring.nvim'
 Plug 'ThePrimeagen/harpoon', {'branch': 'harpoon2'}
 Plug 'airblade/vim-gitgutter'
-Plug 'ibhagwan/fzf-lua'
+" Plug 'ibhagwan/fzf-lua'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'preservim/nerdtree'
 Plug 'simeji/winresizer'
@@ -50,7 +51,8 @@ if g:enable_copilot
     luafile $HOME/.config/nvim/plugins/copilot.lua
 endif
 
-luafile $HOME/.config/nvim/plugins/fzf-lua.lua
+" luafile $HOME/.config/nvim/plugins/fzf-lua.lua
+luafile $HOME/.config/nvim/plugins/telescope.lua
 luafile $HOME/.config/nvim/plugins/lualine.lua
 luafile $HOME/.config/nvim/plugins/refactoring.lua
 luafile $HOME/.config/nvim/plugins/treesitter.lua
