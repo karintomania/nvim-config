@@ -5,8 +5,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'ryanoasis/vim-devicons'
 
 " LSP
-Plug 'williamboman/mason.nvim'
-Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'neovim/nvim-lspconfig'
 
@@ -43,7 +41,6 @@ source $HOME/.config/nvim/plugins/nerdtree.vim
 source $HOME/.config/nvim/plugins/commentary.vim
 
 " set up lsp (needs to be this order)
-luafile $HOME/.config/nvim/plugins/mason.lua
 luafile $HOME/.config/nvim/plugins/lsp.lua
 
 
