@@ -7,7 +7,10 @@ set clipboard+=unnamedplus
 " encode
 set encoding=utf-8
 set fileencodings=utf-8
-set ambiwidth=double
+
+if g:platform != 'macos'
+    set ambiwidth=double
+endif
 
 " white space visible
 set list
